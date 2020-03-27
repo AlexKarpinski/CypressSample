@@ -20,12 +20,7 @@ pipeline {
                     steps {
                         bat 'npx cypress run --record --key 71bee1fb-3850-4ef5-af96-34296456abbf --parallel'
                     }
-                }
-                stage('Run tests in parallel C') {
-                    steps {
-                        bat 'npx cypress run --record --key 71bee1fb-3850-4ef5-af96-34296456abbf --parallel'
-                    }
-                }
+                }           
             }
         }
     }
