@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://petstore.swagger.io/v2",
+  "integrationFolder": "cypress/all-tests",
+  "projectId": "bya9vm",
+  "env": {
+    "googleURL": "https://store.google.com/us",
+    "petUrl": "https://petstore.swagger.io/v2"
+  }
+}
