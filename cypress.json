@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://petstore.swagger.io/v2",
+  "baseUrl": "https://reqres.in",
   "integrationFolder": "cypress/all-tests",
   "projectId": "bya9vm",
   "env": {

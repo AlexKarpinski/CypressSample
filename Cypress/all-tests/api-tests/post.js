@@ -1,4 +1,4 @@
-describe('POST request', () => {
+/*describe('POST request', () => {
 
     it('create pet', () => {
         cy.fixture('pet').then(pet => {
@@ -9,4 +9,4 @@ describe('POST request', () => {
             })
         })
     })
-})
+})*/
