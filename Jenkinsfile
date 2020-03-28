@@ -8,7 +8,7 @@ pipeline {
             }
         }
          stages {
-        stage('build') {
+        stage('opn') {
             steps {
                 bat 'npm cypress open'
             }
