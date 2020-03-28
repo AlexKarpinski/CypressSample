@@ -7,6 +7,12 @@ pipeline {
                 bat 'npm install'
             }
         }
+         stages {
+        stage('build') {
+            steps {
+                bat 'npm cypress open'
+            }
+        }
         stage('parallel') {
             parallel {
                 // start several test jobs in parallel, and they all
